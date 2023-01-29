@@ -16,11 +16,54 @@ html{
 .container{
     height: 100vh;
     width: 100%;
+    padding: 13% 0 0 25%;
     background-image: url(img/bg-01.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.container .content{
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.container .content h1{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #96C700;
+}
+
+.container .content .para1 p{
+    margin-bottom: 25px;
+    color: #676362;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.container .content .para2 p{
+    margin-bottom: 25px;
+    color: #676362;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.container .content a{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    background-color: #983333;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
 }
 
 .container2{
